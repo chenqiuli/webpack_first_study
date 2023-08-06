@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'AlimamaDaoLiTi';
+  src: url(./assets/AlimamaDaoLiTi.ttf) format('truetype');
+}
+
+.icon {
+  font-family: 'AlimamaDaoLiTi';
+  font-size: 50px;
+}
+
+.hello {
+  color: red;
+}
+
+.block-bg {
+  background: url(./assets/mi.png) no-repeat center center !important;
+}
