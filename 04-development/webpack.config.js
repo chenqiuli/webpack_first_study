@@ -17,8 +17,7 @@ module.exports = {
   devtool: 'inline-source-map', // 精准定位代码行数
 
   plugins: [
-    // 生成的是默认在dist文件夹里的index.html
-    // new HtmlWebpackPlugin()
+    // new HtmlWebpackPlugin()：生成的是默认在dist文件夹里的index.html
     // 自定义生成一个打包后的html文件
     new HtmlWebpackPlugin({
       template: "./index.html",
